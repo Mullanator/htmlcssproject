@@ -1,6 +1,5 @@
 body{
     background-image: url("./background.png");
-    /* background-repeat: no-repeat; */
     /* background-image: url("./images/gtrtable.jpg"); */
 }
 
@@ -52,6 +51,21 @@ h2{
 }
 
 li{display: inline;}
+
+#video{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#photos{
+    position: absolute;
+    margin: 130px 0 0 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .container{
     display: flex;
@@ -191,11 +205,11 @@ img.border{
     clear: both;
     display: table;
 }
-/*.footer{
+.footer{
     font-family: sans-serif;
     color: rgb(165, 165, 165);
     margin: 625px 1075px 30px 70px;
     padding: 5px 20px 5px 20px;
     background-color: black;
     opacity: .7;
-} */
+}
